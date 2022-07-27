@@ -11,5 +11,44 @@
 * {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Fira sans", sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.taskManager{
+	width: 360px;
+}
+#inputTask {
+    width: 300px;
+    height: 46px;
+	margin-top: 10px;
+	padding: 0 10px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+#addTask {
+    height: 50px;
+    width: 50px;
+	margin-top: 10px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.taskContainer {
+    margin-top: 25px;
 }
