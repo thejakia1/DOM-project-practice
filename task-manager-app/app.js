@@ -1,6 +1,12 @@
-const input = document.getElementById("input-value");
-const inputValue = input.value;
+const inputTask = document.getElementById("inputTask");
+const addTaskBtn = document.getElementById("addTask");
+const taskContainer = document.getElementById("taskContainer");
 
-const getInputValue = () =>{
-    document.getElementById("tasks").innerHTML = inputValue;
-}
+addTaskBtn.addEventListener("click", function() {
+    let tasklist = document.createElement('p');
+    tasklist.classList.add('tasklist-styling');
+    tasklist.innerHTML = inputTask.value;
+    taskContainer.appendChild(tasklist);
+    inputTask.value = '';
+    
+})
